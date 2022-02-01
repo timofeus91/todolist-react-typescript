@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {ButtonHTMLAttributes, FC, MouseEventHandler} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import WordForm from "./justTrain";
+
 
 function App() {
+
   return (
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +23,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <WordForm />
     </div>
+
   );
 }
 
