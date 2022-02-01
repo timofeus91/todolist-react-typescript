@@ -1,29 +1,21 @@
-import React, {ButtonHTMLAttributes, FC, MouseEventHandler} from 'react';
+import React from 'react';
 import './App.css';
-
+import Info from "../Info/Info";
+import SearchPanel from "../SearchPanel/SearchPanel";
+import TodoList from "../TodoList/TodoList";
+import TodoItemAddForm from "../TodoItemAddForm/TodoItemAddForm";
 
 
 function App() {
 
-  return (
-
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-
-  );
+    return (
+        <main className="main">
+            <Info/>
+            <SearchPanel/>
+            <TodoList/>
+            <TodoItemAddForm/>
+        </main>
+    );
 }
 
 export default App;
