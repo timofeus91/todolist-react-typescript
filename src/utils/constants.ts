@@ -10,3 +10,12 @@ export const buttonFilterArray = [
     {name: 'active', label: 'Active'},
     {name: 'done', label: 'Done'},
 ]
+
+
+export interface TodoItemInterface  {
+    id: number
+    subtitle: string
+    important: boolean
+    done: boolean
+
+};
