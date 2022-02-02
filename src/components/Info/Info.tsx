@@ -1,8 +1,17 @@
 import React, {FC} from "react";
+import './Info.css';
 
-const Info: FC = () => {
+interface InfoInterface {
+    inWork: string
+    done: string
+}
+
+const Info: FC<InfoInterface> = ({inWork,done}) => {
     return (
-        <p>In progress...</p>
+        <section className="info">
+            <h1 className="info__title">ToDo List</h1>
+            <p className="info__subtitle">{`${inWork} in work and ${done} done`}</p>
+        </section>
     );
 }
 
