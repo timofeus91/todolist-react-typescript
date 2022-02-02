@@ -2,7 +2,7 @@ import React, {FC} from "react";
 
 const SearchInput: FC = () => {
     return (
-        <p>In progress...</p>
+        <input className="form-control" placeholder="Enter to search" type="text"/>
     );
 }
 

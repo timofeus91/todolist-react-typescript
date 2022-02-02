@@ -1,6 +1,8 @@
 import React, {FC} from "react";
 import TodoItem from "../TodoItem/TodoItem";
 import {todoListDefault} from "../../utils/constants";
+import './TodoList.css';
+
 
 const TodoList: FC = () => {
     return (
@@ -9,7 +11,7 @@ const TodoList: FC = () => {
             <ul className="todolist-ul">
                 {todoListDefault.map(item =>
                     <TodoItem
-                        name={item.name}
+                        name={item.subtitle}
                         key={item.id}
                     />
                 )}

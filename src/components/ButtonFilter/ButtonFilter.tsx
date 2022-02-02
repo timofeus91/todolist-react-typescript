@@ -1,8 +1,19 @@
 import React, {FC} from "react";
+import './ButtonFilter.css';
 
-const ButtonFilter: FC = () => {
+interface ButtonFilterInterface {
+    label: string,
+    name: string,
+    filter: string,
+}
+
+const ButtonFilter: FC<ButtonFilterInterface> = ({label,name,filter}) => {
+
+    const isActive = name === filter;
+    const classNames = 'btn ' + (isActive ? 'btn-secondary' : 'btn-outline-secondary');
+
     return (
-        <p>In progress...</p>
+        <button className={classNames} type="button">{label}</button>
     );
 }
 

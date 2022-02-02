@@ -1,0 +1,5 @@
+.todoitem-add__form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
