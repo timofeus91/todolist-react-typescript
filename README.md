@@ -18,6 +18,8 @@ And after that we can run it locally with
 
 Have a good day! I will be glad to any feedback.
 
+Author: Berezhnov Timofey
+
 telegram: @timofeus91
 
 email: timofeus91@gmail.com
@@ -44,6 +46,8 @@ linkedin: https://www.linkedin.com/in/timofeus91/
 
 
 Хорошего дня! Буду рад любым отзывам.
+
+Автор: Бережнов Тимофей
 
 telegram: @timofeus91
 
