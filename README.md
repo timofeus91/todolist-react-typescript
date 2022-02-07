@@ -1,4 +1,4 @@
-#Todo List
+# Todo List
 
 This is a simple Todo List built with React, TypeScript and Bootstrap.
 The app was created using Create React App.
