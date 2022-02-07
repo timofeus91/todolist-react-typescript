@@ -1,8 +1,18 @@
-import React, {FC} from "react";
+import React, {FC, ChangeEvent} from "react";
 
-const SearchInput: FC = () => {
+interface SearchInputInterface {
+    handleChange: (e : ChangeEvent<HTMLInputElement>) => void,
+    textForSearch: string,
+}
+
+const SearchInput: FC<SearchInputInterface> = ({handleChange, textForSearch}) => {
+
+
+
+
     return (
-        <input className="form-control" placeholder="Enter to search" type="text"/>
+        <input className="form-control" placeholder="Enter to search" type="text" value={textForSearch}
+               onChange={handleChange}/>
     );
 }
 

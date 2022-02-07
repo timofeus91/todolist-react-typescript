@@ -7,9 +7,10 @@ interface TodoListInterface {
     todoListArray: TodoItemInterface[],
     onDelete: (value : number) => void,
     onToggleDone: (value : number) => void,
+    onToggleImportant: (value : number) => void
 }
 
-const TodoList: FC<TodoListInterface> = ({todoListArray,onDelete,onToggleDone}) => {
+const TodoList: FC<TodoListInterface> = ({todoListArray,onDelete,onToggleDone, onToggleImportant}) => {
     return (
         <section className="todolist">
             <h2 className="todolist__title">Tasks for today</h2>
@@ -19,12 +20,17 @@ const TodoList: FC<TodoListInterface> = ({todoListArray,onDelete,onToggleDone}) 
                         return (<TodoItem
                             name={item.subtitle}
                             key={item.id}
+                            important={item.important}
+                            done={item.done}
 
                             onDelete={() => {
                                 onDelete(id)}
                             }
                             onToggleDone={() => {
                                 onToggleDone(id)}
+                            }
+                            onToggleImportant={() => {
+                                onToggleImportant(id)}
                             }
                         />)
                     }

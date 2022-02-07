@@ -13,9 +13,9 @@ export const buttonFilterArray = [
 
 
 export interface TodoItemInterface  {
-    id: number
-    subtitle: string
-    important: boolean
-    done: boolean
+    id: number,
+    subtitle: string,
+    important: boolean,
+    done: boolean,
 
 };

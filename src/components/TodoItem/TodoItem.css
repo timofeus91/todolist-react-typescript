@@ -30,10 +30,12 @@
     transition: opacity 0.5s;
 }
 
-.todolist__button {
 
+.todolist__subtitle_important {
+    font-weight: bold;
+    color: rgb(53, 23, 252);
 }
 
-.todolist__icon-container {
-
+.todolist__subtitle_done {
+    text-decoration: line-through;
 }

@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+#Todo List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Todo List built with React, TypeScript and Bootstrap.
+The app was created using Create React App.
 
-## Available Scripts
+## Launch rules
 
-In the project directory, you can run:
+After downloading the project, enter the command
 
-### `npm start`
+### npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+And after that we can run it locally with
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### npm start
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Have a good day! I will be glad to any feedback.
 
-### `npm run build`
+telegram: @timofeus91
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+email: timofeus91@gmail.com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+linkedin: https://www.linkedin.com/in/timofeus91/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Todo List
 
-### `npm run eject`
+Это простой Todo List созданный на React с использованием TypeScript и Bootstrap.
+Приложение создано через Create React App
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Правила запуска
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+После скачивания проекта вводим команду
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+И после этого можем запускать его локально через
 
-## Learn More
+#### npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Хорошего дня! Буду рад любым отзывам.
+
+telegram: @timofeus91
+
+email: timofeus91@gmail.com
+
+linkedin: https://www.linkedin.com/in/timofeus91/ 
+
+

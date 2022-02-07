@@ -8,16 +8,19 @@ interface TodoItemInterface {
     name: string,
     onDelete: () => void,
     onToggleDone: () => void,
+    onToggleImportant: () => void,
+    important: boolean,
+    done: boolean,
 }
 
 
 
-const TodoItem: FC<TodoItemInterface> = ({name,onDelete,onToggleDone}) => {
+const TodoItem: FC<TodoItemInterface> = ({name,onDelete,onToggleDone, onToggleImportant, important, done}) => {
     return (
         <li className="todolist__item">
-            <p className="todolist__subtitle" onClick={onToggleDone}>{name}</p>
+            <p className={`todolist__subtitle ${important ? 'todolist__subtitle_important' : ''} ${done ? 'todolist__subtitle_done' : ''}`} onClick={onToggleDone}>{name}</p>
             <div className="todolist__icon-container">
-                <button type="button" className="btn btn-outline-success">
+                <button type="button" className="btn btn-outline-success" onClick={onToggleImportant}>
                     <ImportantIcon/>
                 </button>
 
