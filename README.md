@@ -13,6 +13,8 @@ And after that we can run it locally with
 
 ### npm start
 
+## This [link](https://timofeus91.github.io/todolist-react-typescript/) from GitHub Pages.
+
 
 Have a good day! I will be glad to any feedback.
 
@@ -36,6 +38,9 @@ linkedin: https://www.linkedin.com/in/timofeus91/
 И после этого можем запускать его локально через
 
 #### npm start
+
+
+### Это [ссыла](https://timofeus91.github.io/todolist-react-typescript/) с GitHub Pages.
 
 
 Хорошего дня! Буду рад любым отзывам.
